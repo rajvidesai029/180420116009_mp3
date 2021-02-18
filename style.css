@@ -1,0 +1,70 @@
+body {
+    background: url("D:/visual studio/awp_09/180420116009_mp3/image/image1.jpg");
+    background-color: #887c7c;
+    color: #aa2722;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-family: "Comic sans M ", regular font-family;
+    font-weight: 200;
+  
+    text-align: center;
+    text-shadow: 3px 5px rgb(211, 174, 168), 0 0 50px #5224ce;
+    line-height: 59px;
+  
+    padding: 0 64px;
+    margin: 0;
+  }
+  
+  .stopwatch {
+    display: grid;
+    justify-items: center;
+    text-shadow: 0 0 0px rgb(218, 103, 118), 0 0 50px #f2c94c;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    color: rgb(10, 7, 7);
+    align-items: center;
+    box-shadow: 0 0 15px rgb(189, 71, 24);
+
+    height: 270px;
+    width: 270px;
+  
+    border: 8px solid;
+    border-radius: 50%;
+  }
+  
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    width: 187px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  #playButton {
+    display: block;
+  }
+  
+  #pauseButton {
+    display: none;
+  }
